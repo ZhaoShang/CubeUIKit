@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class TabbarViewController;
+@class RootViewController;
+
 @interface HideTabbarAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	TabbarViewController	*tabBarController;
+	RootViewController		*rootController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

@@ -8,6 +8,9 @@
 
 #import "HideTabbarAppDelegate.h"
 
+#import "RootViewController.h"
+#import "TabbarViewController.h"
+
 @implementation HideTabbarAppDelegate
 
 @synthesize window;
@@ -19,7 +22,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-    
+	rootController = [[RootViewController alloc] init];
+	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:rootController];
+	navController.tabBarItem.title = @"First";
+	tabBarController = [[TabbarViewController alloc] init];
+	
+	[tabBarController setViewControllers:[NSArray arrayWithObjects:navController, nil]];
+	[self.window addSubview:tabBarController.view];
     [self.window makeKeyAndVisible];
     
     return YES;
@@ -75,6 +84,8 @@
 
 
 - (void)dealloc {
+	[tabBarController release];
+	[rootController release];
     [window release];
     [super dealloc];
 }
