@@ -1,504 +1,0 @@
-THideTabbar
-v7
-r0
-t323067375.205393
-cCheck dependencies
-cProcessInfoPlistFile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/Info.plist HideTabbar-Info.plist
-cCompileXIB /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/MainWindow.xib
-cCpResource build/Debug-iphonesimulator/HideTabbar.app/fakebar.png images/fakebar.png
-cCpResource build/Debug-iphonesimulator/HideTabbar.app/bg_stripe.png images/bg_stripe.png
-cCpResource build/Debug-iphonesimulator/HideTabbar.app/bg_chat_g.png images/bg_chat_g.png
-cCpResource build/Debug-iphonesimulator/HideTabbar.app/bg_chat_y.png images/bg_chat_y.png
-cProcessPCH /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch.gch HideTabbar_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/main.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/HideTabbarAppDelegate.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/HideTabbarAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/RootViewController.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/TabbarViewController.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/TabbarViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/FakeNavigationBar.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/FakeNavigationBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageTableView.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageTableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageBoxView.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageBoxView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageView.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MyMessageCell.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MyMessageCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/HideTabbar normal i386
-cGenerateDSYMFile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app.dSYM /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/HideTabbar
-cTouch /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app
-
-N/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/FakeNavigationBar.h
-c000000004D90ACFB0000000000000124
-t1301327099
-s292
-i<UIKit/UIKit.h>
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/FakeNavigationBar.m
-c000000004D90AE030000000000000427
-t1301327363
-s1063
-i"FakeNavigationBar.h"
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/HideTabbarAppDelegate.h
-c000000004D90A781000000000000022B
-t1301325697
-s555
-i<UIKit/UIKit.h>
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/HideTabbarAppDelegate.m
-c000000004D90AB110000000000000D1F
-t1301326609
-s3359
-i"HideTabbarAppDelegate.h"
-i"RootViewController.h"
-i"TabbarViewController.h"
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageBoxView.h
-c000000004D90BBD90000000000000211
-t1301330905
-s529
-i<UIKit/UIKit.h>
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageBoxView.m
-c000000004D90BC1500000000000008EC
-t1301330965
-s2284
-i"MessageBoxView.h"
-i"MessageView.h"
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageTableView.h
-c000000004D90AE7700000000000000DC
-t1301327479
-s220
-i<UIKit/UIKit.h>
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageTableView.m
-c000000004D90AE6E000000000000025D
-t1301327470
-s605
-i"MessageTableView.h"
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageView.h
-c000000004D90C101000000000000020C
-t1301332225
-s524
-i<UIKit/UIKit.h>
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageView.m
-c000000004D90E6E70000000000001032
-t1301341927
-s4146
-i"MessageView.h"
-i"FakeNavigationBar.h"
-i"MessageTableView.h"
-i"MessageBoxView.h"
-i"MyMessageCell.h"
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MyMessageCell.h
-c000000004D90E2C7000000000000028F
-t1301340871
-s655
-i<UIKit/UIKit.h>
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MyMessageCell.m
-c000000004D9152700000000000001163
-t1301369456
-s4451
-i"MyMessageCell.h"
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/RootViewController.h
-c000000004D90B0A30000000000000154
-t1301328035
-s340
-i<UIKit/UIKit.h>
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/RootViewController.m
-c000000004D90C1C500000000000011E4
-t1301332421
-s4580
-i"RootViewController.h"
-i"HideTabbarAppDelegate.h"
-i"TabbarViewController.h"
-i"MessageView.h"
-i"FakeNavigationBar.h"
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/TabbarViewController.h
-c000000004D90A6700000000000000145
-t1301325424
-s325
-i<UIKit/UIKit.h>
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/TabbarViewController.m
-c000000004D90AC9F00000000000003A7
-t1301327007
-s935
-i"TabbarViewController.h"
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/HideTabbar_Prefix.pch
-c000000004D90938E00000000000000BD
-t1301320590
-s189
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/MainWindow.xib
-c000000004D90938E0000000000002117
-t1301320590
-s8471
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app
-t1301374573
-s340
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app.dSYM
-t1301374573
-s102
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/HideTabbar
-t1301374573
-s60184
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/Info.plist
-t1301323358
-s603
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/MainWindow.nib
-t1301323358
-s987
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/PkgInfo
-t1301323358
-s8
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/bg_chat_g.png
-t1301334503
-s1488
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/bg_chat_y.png
-t1301334503
-s1506
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/bg_stripe.png
-t1301326789
-s4941
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/fakebar.png
-t1301326789
-s6471
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/FakeNavigationBar.o
-t1301327364
-s41564
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/HideTabbar.LinkFileList
-c000000004D90C9E70000000000000653
-t1301334503
-s1619
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/HideTabbarAppDelegate.o
-t1301328294
-s57784
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageBoxView.o
-t1301332309
-s50500
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageTableView.o
-t1301327574
-s37256
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageView.o
-t1301341927
-s59388
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MyMessageCell.o
-t1301374573
-s53096
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/RootViewController.o
-t1301332422
-s61016
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/TabbarViewController.o
-t1301327068
-s43004
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/main.o
-t1301323359
-s6412
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/bg_chat_g.png
-c000000004D90C2E200000000000005D0
-t1301332706
-s1488
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/bg_chat_y.png
-c000000004D90C2E300000000000005E2
-t1301332707
-s1506
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/bg_stripe.png
-c000000004D76D825000000000000134D
-t1299634213
-s4941
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/fakebar.png
-c000000004D8C41D30000000000001947
-t1301037523
-s6471
-
-N/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/main.m
-c000000004D90938E0000000000000166
-t1301320590
-s358
-i<UIKit/UIKit.h>
-
-N/var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch.gch
-t1301323359
-s15457488
-
-NHideTabbar-Info.plist
-c000000004D90938E000000000000038D
-t1301320590
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies323067375#323067375#0(0"0(0#1#0"8644540032#0"0#
-
-CCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/FakeNavigationBar.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/FakeNavigationBar.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323020163.916002
-e323020164.084299
-r1
-xCompileC
-xbuild/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/FakeNavigationBar.o
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/FakeNavigationBar.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@115"Compile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/FakeNavigationBar.m323020163#323020164#0(0"0(0#0#107"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/FakeNavigationBar.m8625172960#2487"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-generated-files.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-own-target-headers.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-all-target-headers.hmap -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-project-headers.hmap -F/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/include -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources/i386 -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources -include /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch -c /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/FakeNavigationBar.m -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/FakeNavigationBar.o0#
-
-CCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/HideTabbarAppDelegate.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/HideTabbarAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323021093.899160
-e323021094.019360
-r1
-xCompileC
-xbuild/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/HideTabbarAppDelegate.o
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/HideTabbarAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@119"Compile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/HideTabbarAppDelegate.m323021093#323021094#0(0"0(0#0#111"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/HideTabbarAppDelegate.m8644894208#2495"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-generated-files.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-own-target-headers.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-all-target-headers.hmap -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-project-headers.hmap -F/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/include -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources/i386 -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources -include /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch -c /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/HideTabbarAppDelegate.m -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/HideTabbarAppDelegate.o0#
-
-CCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageBoxView.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageBoxView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323025109.400839
-e323025109.609645
-r1
-xCompileC
-xbuild/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageBoxView.o
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageBoxView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@112"Compile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageBoxView.m323025109#323025109#0(0"0(0#0#104"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageBoxView.m8629577088#2481"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-generated-files.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-own-target-headers.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-all-target-headers.hmap -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-project-headers.hmap -F/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/include -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources/i386 -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources -include /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch -c /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageBoxView.m -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageBoxView.o0#
-
-CCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageTableView.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageTableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323020374.084843
-e323020374.159222
-r1
-xCompileC
-xbuild/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageTableView.o
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageTableView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@114"Compile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageTableView.m323020374#323020374#0(0"0(0#0#106"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageTableView.m8631406112#2485"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-generated-files.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-own-target-headers.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-all-target-headers.hmap -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-project-headers.hmap -F/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/include -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources/i386 -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources -include /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch -c /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageTableView.m -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageTableView.o0#
-
-CCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageView.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323034727.410349
-e323034727.672274
-r1
-xCompileC
-xbuild/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageView.o
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@109"Compile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageView.m323034727#323034727#0(0"0(0#0#101"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageView.m8637833888#2475"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-generated-files.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-own-target-headers.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-all-target-headers.hmap -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-project-headers.hmap -F/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/include -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources/i386 -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources -include /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch -c /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MessageView.m -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MessageView.o0#
-
-CCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MyMessageCell.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MyMessageCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323067372.600248
-e323067373.051118
-r1
-xCompileC
-xbuild/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MyMessageCell.o
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MyMessageCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@111"Compile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MyMessageCell.m323067372#323067373#0(0"0(0#0#103"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MyMessageCell.m8628616736#2479"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-generated-files.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-own-target-headers.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-all-target-headers.hmap -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-project-headers.hmap -F/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/include -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources/i386 -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources -include /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch -c /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/MyMessageCell.m -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/MyMessageCell.o0#
-
-CCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/RootViewController.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323025222.012293
-e323025222.193602
-r1
-xCompileC
-xbuild/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/RootViewController.o
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@116"Compile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/RootViewController.m323025222#323025222#0(0"0(0#0#108"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/RootViewController.m8625210464#2489"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-generated-files.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-own-target-headers.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-all-target-headers.hmap -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-project-headers.hmap -F/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/include -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources/i386 -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources -include /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch -c /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/RootViewController.m -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/TabbarViewController.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/TabbarViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323019867.933307
-e323019868.115001
-r1
-xCompileC
-xbuild/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/TabbarViewController.o
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/TabbarViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@118"Compile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/TabbarViewController.m323019867#323019868#0(0"0(0#0#110"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/TabbarViewController.m8647992896#2493"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-generated-files.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-own-target-headers.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-all-target-headers.hmap -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-project-headers.hmap -F/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/include -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources/i386 -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources -include /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch -c /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/Classes/TabbarViewController.m -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/TabbarViewController.o0#
-
-CCompileC build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/main.o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s323016159.705356
-e323016159.807637
-r1
-xCompileC
-xbuild/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/main.o
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/main.m323016159#323016159#0(0"0(0#0#86"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/main.m8600345632#2453"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-generated-files.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-own-target-headers.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-all-target-headers.hmap -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-project-headers.hmap -F/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/include -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources/i386 -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources -include /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch -c /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/main.m -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/MainWindow.xib
-s323016158.316982
-e323016158.751335
-r1
-xCompileXIB
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib323016158#323016158#0(0"0(0#0#94"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/MainWindow.xib8612631616#724"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/MainWindow.nib /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/MainWindow.xib --sdk /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCpResource build/Debug-iphonesimulator/HideTabbar.app/bg_chat_g.png images/bg_chat_g.png
-s323027303.101620
-e323027303.171145
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HideTabbar.app/bg_chat_g.png
-ximages/bg_chat_g.png
-lSLF07#2@25"Copy images/bg_chat_g.png323027303#323027303#0(0"0(0#0#100"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/bg_chat_g.png8635936544#625"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/bg_chat_g.png /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app0#
-
-CCpResource build/Debug-iphonesimulator/HideTabbar.app/bg_chat_y.png images/bg_chat_y.png
-s323027303.102405
-e323027303.171324
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HideTabbar.app/bg_chat_y.png
-ximages/bg_chat_y.png
-lSLF07#2@25"Copy images/bg_chat_y.png323027303#323027303#0(0"0(0#0#100"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/bg_chat_y.png8629304704#625"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/bg_chat_y.png /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app0#
-
-CCpResource build/Debug-iphonesimulator/HideTabbar.app/bg_stripe.png images/bg_stripe.png
-s323019589.561992
-e323019589.611796
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HideTabbar.app/bg_stripe.png
-ximages/bg_stripe.png
-lSLF07#2@25"Copy images/bg_stripe.png323019589#323019589#0(0"0(0#0#100"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/bg_stripe.png8636763008#625"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/bg_stripe.png /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app0#
-
-CCpResource build/Debug-iphonesimulator/HideTabbar.app/fakebar.png images/fakebar.png
-s323019589.561118
-e323019589.612102
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HideTabbar.app/fakebar.png
-ximages/fakebar.png
-lSLF07#2@23"Copy images/fakebar.png323019589#323019589#0(0"0(0#0#98"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/fakebar.png30118239126552624#623"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/images/fakebar.png /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app0#
-
-CGenerateDSYMFile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app.dSYM /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/HideTabbar
-s323067373.083084
-e323067373.117649
-r1
-xGenerateDSYMFile
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app.dSYM
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/HideTabbar
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/HideTabbar.app.dSYM build/Debug-iphonesimulator/HideTabbar.app/HideTabbar323067373#323067373#0(0"0(0#0#133"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/HideTabbar8642336608#536"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/usr/bin/dsymutil /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/HideTabbar -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app.dSYM0#
-
-CLd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/HideTabbar normal i386
-s323067373.051215
-e323067373.082976
-r1
-xLd
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/HideTabbar
-xnormal
-xi386
-lSLF07#2@138"Link /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/HideTabbar323067373#323067373#0(0"0(0#0#0"8643178528#1148"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -F/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -filelist /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/Objects-normal/i386/HideTabbar.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/HideTabbar0#
-
-CProcessInfoPlistFile /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/Info.plist HideTabbar-Info.plist
-s323016158.249097
-e323016158.316878
-r1
-xProcessInfoPlistFile
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/Info.plist
-xHideTabbar-Info.plist
-lSLF07#2@29"Process HideTabbar-Info.plist323016158#323016158#0(0"0(0#0#101"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/HideTabbar-Info.plist12948338561319010#625"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HideTabbar-Info.plist -genpkginfo /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app/Info.plist0#
-
-CProcessPCH /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch.gch HideTabbar_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s323016158.751490
-e323016159.705251
-r1
-xProcessPCH
-x/var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch.gch
-xHideTabbar_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile HideTabbar_Prefix.pch323016158#323016159#0(0"0(0#0#101"/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/HideTabbar_Prefix.pch8612088832#2301"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-generated-files.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-own-target-headers.hmap -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-all-target-headers.hmap -iquote /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/HideTabbar-project-headers.hmap -F/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/include -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources/i386 -I/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/HideTabbar.build/Debug-iphonesimulator/HideTabbar.build/DerivedSources -c /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/HideTabbar_Prefix.pch -o /var/folders/ia/iapfB3GdEJyimHMajJaDQU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/HideTabbar_Prefix-ehvyklwscituymctaxaxnltvresj/HideTabbar_Prefix.pch.gch0#
-
-CTouch /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app
-s323067373.117746
-e323067373.120427
-r1
-xTouch
-x/Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app
-lSLF07#2@128"Touch /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app323067373#323067373#0(0"0(0#0#0"8641189152#377"    cd /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar    setenv PATH "/Developer/SDK4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/SDK4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/iPhoneWorkerTelenavsoftware/Desktop/Functions/UIKit/CubeUIKit/HideTabbar/build/Debug-iphonesimulator/HideTabbar.app0#
-
