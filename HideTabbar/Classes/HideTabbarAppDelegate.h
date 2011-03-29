@@ -13,11 +13,14 @@
 
 @interface HideTabbarAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	TabbarViewController	*tabBarController;
+	TabbarViewController	*tabController;
 	RootViewController		*rootController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, readonly) TabbarViewController *tabController;
+
+- (void)setRootFrame;
 
 @end
 

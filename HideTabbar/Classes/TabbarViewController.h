@@ -10,7 +10,9 @@
 
 
 @interface TabbarViewController : UITabBarController {
-
+	BOOL	enableLandscape;
 }
+
+@property (assign, getter=isEnableLandscape) BOOL enableLandscape;
 
 @end

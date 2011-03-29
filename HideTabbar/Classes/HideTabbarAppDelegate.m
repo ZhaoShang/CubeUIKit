@@ -14,7 +14,7 @@
 @implementation HideTabbarAppDelegate
 
 @synthesize window;
-
+@synthesize tabController;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -25,15 +25,23 @@
 	rootController = [[RootViewController alloc] init];
 	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:rootController];
 	navController.tabBarItem.title = @"First";
-	tabBarController = [[TabbarViewController alloc] init];
+	tabController = [[TabbarViewController alloc] init];
 	
-	[tabBarController setViewControllers:[NSArray arrayWithObjects:navController, nil]];
-	[self.window addSubview:tabBarController.view];
+	UIViewController *secondController = [[UIViewController alloc] init];
+	secondController.tabBarItem.title = @"Second";
+	[tabController setViewControllers:[NSArray arrayWithObjects:navController, secondController, nil]];
+	[self.window addSubview:tabController.view];
     [self.window makeKeyAndVisible];
+	
+	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
     
     return YES;
 }
 
+- (void)setRootFrame
+{
+	rootController.view.frame = CGRectMake(0, 0, 320, 200);
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     /*
@@ -84,7 +92,7 @@
 
 
 - (void)dealloc {
-	[tabBarController release];
+	[tabController release];
 	[rootController release];
     [window release];
     [super dealloc];

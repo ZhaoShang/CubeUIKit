@@ -15,6 +15,15 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		308CC3551340D4C3000D6E32 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CC3541340D4C3000D6E32 /* RootViewController.m */; };
 		308CC3581340D4CD000D6E32 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CC3571340D4CD000D6E32 /* TabbarViewController.m */; };
+		308CC45B1340E303000D6E32 /* fakebar.png in Resources */ = {isa = PBXBuildFile; fileRef = 308CC45A1340E303000D6E32 /* fakebar.png */; };
+		308CC4611340E30E000D6E32 /* bg_stripe.png in Resources */ = {isa = PBXBuildFile; fileRef = 308CC4601340E30E000D6E32 /* bg_stripe.png */; };
+		308CC4911340E43D000D6E32 /* FakeNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CC4901340E43D000D6E32 /* FakeNavigationBar.m */; };
+		308CC4C51340E5EE000D6E32 /* MessageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CC4C41340E5EE000D6E32 /* MessageTableView.m */; };
+		308CC4DA1340E6A5000D6E32 /* MessageBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CC4D91340E6A5000D6E32 /* MessageBoxView.m */; };
+		308CC4F21340E796000D6E32 /* MessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CC4F11340E796000D6E32 /* MessageView.m */; };
+		308CC7441340FAA9000D6E32 /* bg_chat_g.png in Resources */ = {isa = PBXBuildFile; fileRef = 308CC7421340FAA9000D6E32 /* bg_chat_g.png */; };
+		308CC7451340FAA9000D6E32 /* bg_chat_y.png in Resources */ = {isa = PBXBuildFile; fileRef = 308CC7431340FAA9000D6E32 /* bg_chat_y.png */; };
+		308CC7481340FB38000D6E32 /* MyMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 308CC7471340FB38000D6E32 /* MyMessageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +39,20 @@
 		308CC3541340D4C3000D6E32 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		308CC3561340D4CD000D6E32 /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
 		308CC3571340D4CD000D6E32 /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		308CC45A1340E303000D6E32 /* fakebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fakebar.png; sourceTree = "<group>"; };
+		308CC4601340E30E000D6E32 /* bg_stripe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_stripe.png; sourceTree = "<group>"; };
+		308CC48F1340E43D000D6E32 /* FakeNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeNavigationBar.h; sourceTree = "<group>"; };
+		308CC4901340E43D000D6E32 /* FakeNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeNavigationBar.m; sourceTree = "<group>"; };
+		308CC4C31340E5EE000D6E32 /* MessageTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableView.h; sourceTree = "<group>"; };
+		308CC4C41340E5EE000D6E32 /* MessageTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableView.m; sourceTree = "<group>"; };
+		308CC4D81340E6A5000D6E32 /* MessageBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageBoxView.h; sourceTree = "<group>"; };
+		308CC4D91340E6A5000D6E32 /* MessageBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageBoxView.m; sourceTree = "<group>"; };
+		308CC4F01340E796000D6E32 /* MessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageView.h; sourceTree = "<group>"; };
+		308CC4F11340E796000D6E32 /* MessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageView.m; sourceTree = "<group>"; };
+		308CC7421340FAA9000D6E32 /* bg_chat_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_chat_g.png; sourceTree = "<group>"; };
+		308CC7431340FAA9000D6E32 /* bg_chat_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_chat_y.png; sourceTree = "<group>"; };
+		308CC7461340FB38000D6E32 /* MyMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMessageCell.h; sourceTree = "<group>"; };
+		308CC7471340FB38000D6E32 /* MyMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMessageCell.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* HideTabbar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideTabbar_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HideTabbar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HideTabbar-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +80,16 @@
 				308CC3541340D4C3000D6E32 /* RootViewController.m */,
 				308CC3561340D4CD000D6E32 /* TabbarViewController.h */,
 				308CC3571340D4CD000D6E32 /* TabbarViewController.m */,
+				308CC48F1340E43D000D6E32 /* FakeNavigationBar.h */,
+				308CC4901340E43D000D6E32 /* FakeNavigationBar.m */,
+				308CC4C31340E5EE000D6E32 /* MessageTableView.h */,
+				308CC4C41340E5EE000D6E32 /* MessageTableView.m */,
+				308CC4D81340E6A5000D6E32 /* MessageBoxView.h */,
+				308CC4D91340E6A5000D6E32 /* MessageBoxView.m */,
+				308CC4F01340E796000D6E32 /* MessageView.h */,
+				308CC4F11340E796000D6E32 /* MessageView.m */,
+				308CC7461340FB38000D6E32 /* MyMessageCell.h */,
+				308CC7471340FB38000D6E32 /* MyMessageCell.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -93,6 +126,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				308CC44C1340E2E4000D6E32 /* images */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* HideTabbar-Info.plist */,
 			);
@@ -107,6 +141,17 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		308CC44C1340E2E4000D6E32 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				308CC7421340FAA9000D6E32 /* bg_chat_g.png */,
+				308CC7431340FAA9000D6E32 /* bg_chat_y.png */,
+				308CC4601340E30E000D6E32 /* bg_stripe.png */,
+				308CC45A1340E303000D6E32 /* fakebar.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +204,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				308CC45B1340E303000D6E32 /* fakebar.png in Resources */,
+				308CC4611340E30E000D6E32 /* bg_stripe.png in Resources */,
+				308CC7441340FAA9000D6E32 /* bg_chat_g.png in Resources */,
+				308CC7451340FAA9000D6E32 /* bg_chat_y.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +222,11 @@
 				1D3623260D0F684500981E51 /* HideTabbarAppDelegate.m in Sources */,
 				308CC3551340D4C3000D6E32 /* RootViewController.m in Sources */,
 				308CC3581340D4CD000D6E32 /* TabbarViewController.m in Sources */,
+				308CC4911340E43D000D6E32 /* FakeNavigationBar.m in Sources */,
+				308CC4C51340E5EE000D6E32 /* MessageTableView.m in Sources */,
+				308CC4DA1340E6A5000D6E32 /* MessageBoxView.m in Sources */,
+				308CC4F21340E796000D6E32 /* MessageView.m in Sources */,
+				308CC7481340FB38000D6E32 /* MyMessageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class MessageView;
+@class FakeNavigationBar;
 
 @interface RootViewController : UIViewController {
-
+	FakeNavigationBar	
+					*fakeNavBar;
+	MessageView		*messageView;
 }
 
 @end
